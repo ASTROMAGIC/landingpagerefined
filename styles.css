@@ -1,14 +1,15 @@
 * {
-    border: 1px solid black;
+    
     
 }
 
 body {
     padding: 0;
-    margin: 5px;
+    margin: 0;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: beige;
+    background-color: light pink;
+    color: palevioletred;
 }
 
 .container-1 {
@@ -22,19 +23,27 @@ body {
     display: flex;
     padding:20px 0px 20px 100px;
     align-items: center;
+    background-color: black;
 
 }
 
+.magic-navbar a {
+    color: palevioletred;
+    height: 140px;
+}
+
+
 .header-logo img {
-    width: 100px;
-    height: 100px;
-    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    border-radius: 5%;
 }
 
 .header-links {
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .header-links a {
@@ -47,19 +56,17 @@ body {
 /* Hero part */
 .container-2 {
     display: flex;
-    flex-basis: 300px;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
-    margin-right: 40px;
+    background-color: black;
+    padding: 40px;
 }
 
 
 .magic-hero-1 {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 90px;
-
 }
 
 .magic-hero-z {
@@ -69,12 +76,19 @@ body {
 }
 
 .magic-hero-z img {
-    border-radius: 1%;
+    border-radius: 10%;
+    width: auto;
+    height: 52%;
 }
 
-.magic.content {
-
+.magic-hero-button-1 {
+    display: block;
+    text-align: center;
+    width: 110px;
+    background-color: palevioletred;
+    padding: 10px;
 }
+
 
 .content-info {
    display: flex;
