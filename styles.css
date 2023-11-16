@@ -67,8 +67,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    margin:50px;
+    flex-basis: 400px;
+    margin-right:50px;
 }
 
 .magic-hero-z {
@@ -84,25 +84,82 @@ body {
 }
 
 .magic-hero-button-1 {
-    display: inline-block;
-    width: 110px;
+    display: block;
     background-color: palevioletred;
-    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 25px;
+    
 }
 
 .magic-content {
     color: black;
+    background-color:  rgb(235, 153, 244);
+    margin:20px;
+    height: 360px;
+}
+
+h2.premiere {
+    background-color:rgb(255, 255, 255);
+    color:black;
+    height: 45px;
 }
 
 .content-info {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    flex-wrap: wrap;
-   margin: 0;
+   background-color: rgb(255, 255, 255);
+   color: black;
 }
 
 .content-info img {
    width: 200px;
    height: 200px;
    border-radius: 10%;
+   margin: 5px 20px 0px 20px;
+   border: 5px solid rgb(0, 0, 0) ;
+}
+
+.magic-quote {
+    background-color: palevioletred;
+    color: black;
+    padding: 0px 150px;
+}
+
+p.astroquote {
+    font-size:36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p.astrosigned {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    
+}
+
+.magic-sign-up {
+    background-color: black;
+    color: palevioletred;
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+}
+
+.sign-item {
+    flex:1;
+}
+
+.signs-button button {
+    background-color: palevioletred;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 25px;
+}
+
+.magic-footer {
+    background-color: black;
 }
